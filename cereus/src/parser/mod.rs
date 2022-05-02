@@ -1,1 +1,3 @@
-mod parser;
+mod grammar;
+
+pub use grammar::parse;
